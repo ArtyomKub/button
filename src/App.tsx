@@ -34,18 +34,23 @@ import {Button} from './components/Button';
 
 function App() {
 
-    const Button1For = (subscriber: string) => {
-        console.log(subscriber)
+    const Button1For = (subscriber: string, age: number) => {
+        console.log(subscriber, age)
     }
 
     const Button2For = (subscriber: string) => {
         console.log(subscriber)
     }
 
+    const Button3For = ()=> {
+        console.log('I am stupid button')
+    }
+
     return (
         <div className={'App'}>
-            <Button name={'Chanel one'} callBack={() => Button1For('Batman')}/>
+            <Button name={'Chanel one'} callBack={() => Button1For('Batman', 21)}/>
             <Button name={'Chanel two'} callBack={() => Button2For('Cross')}/>
+            <Button name={'Stupid Button'} callBack={Button3For}/>
         </div>
     )
 }
