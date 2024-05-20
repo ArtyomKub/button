@@ -35,9 +35,8 @@ import {Button} from './components/Button';
 function App() {
     return (
         <div className={'App'}>
-            <Button/>
-            <button>MyYouTubeChanel-1</button>
-            <button>MyYouTubeChanel-2</button>
+            <Button name={'Chanel one'}/>
+            <Button name={'Chanel two'}/>
         </div>
     )
 }
