@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {MouseEvent} from 'react';
 import './App.css';
 
 function App() {
-    const MyFirstSubscriber = () => {
+    const MyFirstSubscriber = (event: MouseEvent<HTMLButtonElement>) => {
         console.log('Hi, I am Artsem')
     }
 
-    const MySecondSubscriber = () => {
+    const MySecondSubscriber = (event:MouseEvent<HTMLButtonElement>) => {
         console.log('Hi, I am Batman')
     }
 
