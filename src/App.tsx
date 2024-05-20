@@ -9,15 +9,16 @@ function App() {
     // const mySecondSubscriber = (event:MouseEvent<HTMLButtonElement>) => {
     //     console.log('Hi, I am Batman')
     // }
-
-    const onClickHandler = (name:string) => {
-        console.log(name)
-    }
+    // const onClickHandler = (name:string) => {
+    //     console.log(name)
+    // }
 
     return (
         <div className="App">
-            <button onClick={()=>{onClickHandler('Mask')}}>My YouTube Chanel - 1</button>
-            <button onClick={()=>{onClickHandler('Ilon')}}>My YouTube Chanel - 2</button>
+            {/*<button onClick={(event: MouseEvent<HTMLButtonElement>)=>onClickHandler('MASK')}>My YouTube Chanel - 1</button>*/}
+            {/*<button onClick={(event: MouseEvent<HTMLButtonElement>)=>onClickHandler('ILON')}>My YouTube Chanel - 2</button>*/}
+
+
         </div>
     );
 }
