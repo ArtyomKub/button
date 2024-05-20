@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {Button} from './components/Button';
 
 // function App() {
 // const myFirstSubscriber = (event: MouseEvent<HTMLButtonElement>) => {
@@ -34,6 +35,7 @@ import './App.css';
 function App() {
     return (
         <div className={'App'}>
+            <Button/>
             <button>MyYouTubeChanel-1</button>
             <button>MyYouTubeChanel-2</button>
         </div>
