@@ -33,10 +33,19 @@ import {Button} from './components/Button';
 // }
 
 function App() {
+
+    const Button1For = () => {
+
+    }
+
+    const Button2For = () => {
+
+    }
+
     return (
         <div className={'App'}>
-            <Button name={'Chanel one'}/>
-            <Button name={'Chanel two'}/>
+            <Button name={'Chanel one'} callBack={Button1For}/>
+            <Button name={'Chanel two'} callBack={Button2For}/>
         </div>
     )
 }
