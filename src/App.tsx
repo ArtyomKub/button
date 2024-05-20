@@ -12,11 +12,8 @@ function App() {
 
     return (
         <div className="App">
-            <button onClick={MyFirstSubscriber}>My YouTube Chanel - 1
-            </button>
-            <button onClick={MySecondSubscriber}>My YouTube Chanel - 2
-            </button>
-
+            <button onClick={MyFirstSubscriber}>My YouTube Chanel - 1</button>
+            <button onClick={MySecondSubscriber}>My YouTube Chanel - 2</button>
         </div>
     );
 }
