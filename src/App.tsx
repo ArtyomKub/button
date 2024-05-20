@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 
 function App() {
+    const MyFirstSubscriber = () => {
+        console.log('Hi, I am Artsem')
+    }
+
     return (
         <div className="App">
-            <button onClick={(event) => {
-                console.log('Working')
-            }}>My YouTube Chanel - 1
+            <button onClick={MyFirstSubscriber}>My YouTube Chanel - 1
             </button>
             <button onClick={(event) => {
                 console.log('Fuck')
